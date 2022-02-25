@@ -10,7 +10,7 @@ class Astronaut {
         this.pihu = Bodies.rectangle(x,y,width,height,options);
         this.width = width;
         this. height = height;
-        this.image = loadImage("Assets/Astro1.jpeg");
+        this.image = loadImage("Astro1.jpeg");
         World.add(world,this.pihu);
 
     }
