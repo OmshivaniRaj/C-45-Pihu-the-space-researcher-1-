@@ -7,13 +7,13 @@ var bgImg;
 
 function preload(){
 
-  obs1Img = loadImage("Assets/ASTEROID.jpeg");
-  obs2Img = loadImage("Assets/METEOR 1.jpeg");
-  obs3Img = loadImage("Assets/METEOR 2.jpeg");
-  obs4Img = loadImage("Assets/METEOR 3.jpeg");
-  obs5Img = loadImage("Assets/ASTEROID.jpeg");
+  obs1Img = loadImage("ASTEROID.jpeg");
+  obs2Img = loadImage("METEOR 1.jpeg");
+  obs3Img = loadImage("METEOR 2.jpeg");
+  obs4Img = loadImage("METEOR 3.jpeg");
+  obs5Img = loadImage("ASTEROID.jpeg");
 
-  bgImg = loadImage("Assets/BG 4.jpeg");
+  bgImg = loadImage("BG 4.jpeg");
 }
 
 function setup(){
